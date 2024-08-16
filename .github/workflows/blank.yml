@@ -9,5 +9,5 @@ jobs:
           - ubuntu-22.04
           - ubuntu-24.04
     steps:
-      - run: apt list -a fuse
-      - run: apt list -a libfuse-dev
+      - run: apt list -a fuse3
+      - run: apt list -a libfuse3-dev
