@@ -11,3 +11,6 @@ jobs:
     steps:
       - run: apt list -a fuse3
       - run: apt list -a libfuse3-dev
+      
+      - run: apt list -a fuse3-3
+      - run: apt list -a libfuse3-3-dev
